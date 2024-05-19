@@ -1,4 +1,4 @@
-
+//Player class
 public class Player {
 	private int level=0;
 	private String rank = "E";
