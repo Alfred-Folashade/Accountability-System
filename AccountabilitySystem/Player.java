@@ -43,4 +43,16 @@ public class Player {
 		}
 		
 	}
+	public String toString() {
+		return "STATUS:\n" +"\nNAME: "+name
+				+"\nLEVEL: "+level+
+				"\nRank: " + rank
+				+"\n------------\n"+
+				"STRENGTH: "+ strength+
+				"INTELLIGENCE: "+ intelligence+
+				"AGILITY: "+agility
+				+"\n------------\n"+
+				"XP: "+experiencePoints;
+		
+	}
 }
